@@ -1,6 +1,4 @@
 import math
-from math import sin as sn
-from numpy import log
 from math import pow
 
 
