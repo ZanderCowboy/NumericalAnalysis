@@ -1,12 +1,10 @@
-
-
 # INPUT
 n = int(input("Enter n: "))
 matrix = [[0] * n] * n
 for i in range(0, n):  # ROWS
-	print("Enter values of row {}".format(i+1))
+	print("Enter values of row {}".format(i + 1))
 	for j in range(0, n):  # COLUMNS
-		matrix[i][j] = input("Column {}: ".format(j+1))
+		matrix[i][j] = input("Column {}: ".format(j + 1))
 
 # OUTPUT
 
