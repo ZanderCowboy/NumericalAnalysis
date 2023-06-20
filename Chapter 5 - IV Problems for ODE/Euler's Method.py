@@ -5,7 +5,8 @@ def func(t0, w0):
     # dy_dt = yi - ti**2 + 1
     # dy_dt = ti / yi
 
-    return dy_dt
+    # return dy_dt
+    return 0
 
 
 # a, b, N, alpha = 0, 2, 10, 0.5
