@@ -40,7 +40,7 @@ TOL = int(input("Enter TOL: 10^...:"))
 TOL = pow(10, TOL)
 M = int(input("Enter M: "))
 
-beta = 43/3
+# beta = 43/3
 
 # Initialize u and v and w
 newN = N + 1
