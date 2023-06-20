@@ -33,7 +33,6 @@ for i in range(n):
 	l[i] = [0] * n
 	u[i] = [0] * n
 
-
 for i in range(n):
 	for j in range(n):
 		if i == j:
@@ -68,7 +67,7 @@ u[0][1] = a[0][1] / l[0][0]
 z[0] = a[0][n] / l[0][0]
 
 # Step 2
-for i in range(1, n-1):
+for i in range(1, n - 1):
 	l[i][i - 1] = a[i][i - 1]  # ith row of L
 	l[i][i] = a[i][i] - (l[i][i - 1] * u[i - 1][i])
 	u[i][i + 1] = a[i][i + 1] / l[i][i]  # (i+1)th column of U
@@ -91,4 +90,3 @@ for i in range(n - 2, -1, -1):
 string = ""
 for i in range(n):
 	print("x{}: {:.8f}".format(i + 1, x[i]))
-
